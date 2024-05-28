@@ -21,7 +21,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="">NoWaste</a>
+                <a class="navbar-brand fw-bold" href="#">NoWaste</a>
             </div>
         </nav>
         <!-- Mashead header-->
@@ -34,9 +34,22 @@
                             <h1 class="display-1 lh-1 mb-3">NoWaste.</h1>
                             <p class="lead fw-normal text-muted mb-5">Réduisez le gaspillage alimentaire en donnant une seconde vie aux produits alimentaires non vendus!</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
-                                <button class="btn-download" id="btn-auto-click">
-                                    <div class="arrow"></div>
-                                </button>
+                                <div class ="col-lg-3">
+                                    <h4 class="display-8 lh-1 mb-3 mt-3">Version Android :</h4>
+                                    <a href="/assets/app/app-release.apk" download="NoWaste.apk">
+                                        <button class="btn-download" id="btn-auto-click" >
+                                            <div class="arrow"></div>
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class ="col-lg-3">
+                                    <h4 class="display-8 lh-1 mb-3 mt-3">Version Windows :</h4>
+                                    <a href="/assets/app/NoWaste.exe" download="NoWaste.exe">
+                                        <button class="btn-download" id="btn-auto-click" >
+                                            <div class="arrow"></div>
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

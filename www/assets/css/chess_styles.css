@@ -1,0 +1,202 @@
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 740px;
+    padding: 30px 0px 6px 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: white;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+body {
+    background-color: #333;
+    user-select: none;
+}
+
+.container {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(99, 99, 99);
+    padding: 6px 0px 30px 0px;
+    border-radius: 12px;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count {
+    color: white;
+}
+#info-black, #info-white {
+    display: inline;
+}
+
+.container-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+}
+.green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(115,149,82);
+    position: relative;
+}
+
+.beige {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(188, 190, 145);
+    position: relative;
+}
+
+.start-0 {
+    position: absolute;
+    top: 4px; /* Alignement en haut */
+    left: 8px; /* Alignement à gauche */
+    color: rgb(115,149,82);
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.start-1 {
+    position: absolute;
+    top: 4px; /* Alignement en haut */
+    left: 8px; /* Alignement à gauche */
+    color: rgb(188, 190, 145); 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.end-0 {
+    position: absolute;
+    bottom: 4px; /* Alignement en bas */
+    right: 8px; /* Alignement à droite */
+    color: rgb(115,149,82); 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+.end-1 {
+    position: absolute;
+    bottom: 4px; /* Alignement en bas */
+    right: 8px; /* Alignement à droite */
+    color: rgb(188, 190, 145);
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.piece-img {
+    height: 80px;
+    width: 80px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hud-img {
+    height: 24px;
+    width: 24px;
+}
+
+.history-img {
+    height: 20px;
+    width: 20px;
+}
+
+.accessible-beige {
+    box-shadow: inset 0px 0px 0px 1px rgb(188, 190, 145), inset 0px 0px 0px 5px lightgray;
+}
+
+.accessible-green {
+    box-shadow: inset 0px 0px 0px 1px rgb(195, 204, 187), inset 0px 0px 0px 5px lightgray;
+}
+
+.player-name-black {
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.player-name-white {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+#history {
+    display: inline;
+    max-height: 798px;
+    height: 798px;
+    width: 250px;
+    background-color: rgb(99, 99, 99);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 4px;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.container-inline {
+    display: flex;
+}
+
+.padding-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.padding-left {
+    cursor: pointer;
+}
